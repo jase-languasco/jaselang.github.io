@@ -1,31 +1,42 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Jase - Web Developer</title>
-	<link rel="icon" href="jase-avatar.png">
-	<style>
-		html, body { background-color:#000; overflow:none; height:100%; width:100%; margin:0; padding:0; }
-		nav { position:relative; top:40%; background-color:#fff; background-color:rgba(255, 255, 255, 0.2); }
-		nav, nav ul { width:100%; }
-		nav ul { text-align:center; padding:0; margin:0 auto; }
-		nav ul li { list-style-type:none; display:inline-block; margin:10px 25px; font-size:24px; }
-		nav ul li:hover { cursor:pointer; }
-		nav ul li img { width:125px; height:125px; }
+	<title>Jase Languasco</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<style>
+	body, html { display:grid; height:100%; }
+	.social-nav { position:absolute; right:0; top:0; margin-right:1.5em; }
+	.social-nav ul li { list-style-type:none; display:inline-block; font-size:2rem; }
+	.social-nav ul li a { text-decoration:none; color:#000; }
 
-		@media (max-width:550px) {
-			nav ul li { margin:10px; }
-			nav ul li img { width:75px; height:75px; }
-		}
-	</style>
+	.site-title { text-align:center; width:100%; position:absolute; top:30%; }
+	.site-title h1, .site-title h2 {  font-family: 'Indie Flower', cursive !important; }
+	.site-title h1 { font-size:8em !important; }
+	.site-title h2 {  }
+
+	@media (max-width:800px) {
+		.site-title h1 { font-size:6rem !important; }
+		.site-title h2 { font-size:2rem !important; }
+	}
+</style>
 </head>
 <body>
-	<nav>
-		<ul>
-			<li><a href="jase-languasco-resume.pdf" target="_blank"><img src="jase-avatar.png" alt="Jase Avatar"></a></li>
-			<li><a href="https://www.github.com/jaselang" target="_blank"><img src="github-logo.png" alt="github logo" alt="github logo"></a></li>
-			<li><a href="https://stackoverflow.com/users/3726775/jase" target="_blank"><img src="so-logo.png" alt="stack overflow logo"></a></li>
-			<li><a href="https://www.linkedin.com/in/jase-languasco/" target="_blank"><img src="linkedin-logo.png" alt="linkedin logo"></a></li>
-		</ul>
-	</nav>
+<main>
+	<header>
+		<nav class="social-nav top-social-nav">
+			<ul>
+				<li><a href="https://github.com/jase-languasco" target="_blank"><i class="github icon"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/jase-languasco/" target="_blank"><i class="linkedin in icon"></i></a></li>
+				<li><a href="https://stackoverflow.com/users/3726775/jase" target="_blank"><i class="stack overflow icon"></i></a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="site-title">
+		<h1 class="ui header">Jase Languasco</h1>
+		<h2 class="ui header">Full Stack Web Application Developer, Freelancer</h2>
+	</div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
 </body>
 </html>
