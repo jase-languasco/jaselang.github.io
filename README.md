@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jaselanguasco.com
 
 ## Project setup
@@ -27,3 +28,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# jaselanguasco.github.io
+>>>>>>> 8ba2d9b69a8690ae7f08ec3dd1861ecb7cf180b9
