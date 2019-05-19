@@ -12,11 +12,3 @@ window.Vue = Vue;
 Vue.use(VueRouter);
 
 Vue.config.productionTip = false;
-
-import App from './App.vue';
-import router from './routes';
-
-new Vue({
-  render: h => h(App),
-  router
-}).$mount('#app')
