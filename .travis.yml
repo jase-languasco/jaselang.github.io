@@ -1,3 +1,4 @@
+if: branch = dev
 language: node_js
 node_js:
   - "lts/*"
@@ -8,7 +9,6 @@ script:
   - set -e
   - npm run build
   # - sh deploy.sh
-if: branch = dev
 deploy:
   provider: pages
   skip_cleanup: true
@@ -16,4 +16,4 @@ deploy:
   keep_history: true
   local_dir: build
   on:
-    branch: master
+    branch: dev
