@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:jase-languasco/jaselanguasco.github.io.git master
+git push -f https://github.com/jase-languasco/jaselanguasco.github.io.git master
 
 cd -
