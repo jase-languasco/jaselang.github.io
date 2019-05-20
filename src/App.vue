@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="h-full">
-    <!-- <header class="fixed top-0 right-0 w-full flex justify-center md:justify-end items-center py-3 text-lg">
+    <header class="fixed top-0 right-0 w-full flex justify-center md:justify-end items-center py-3 text-lg">
       <nav class="flex">
         <router-link to="/" exact class="mr-4 p-2 cursor-pointer border-b-2 border-transparent hover:border-green-200 flex justify-between items-center">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="svg-inline--fa fa-home fa-w-18 w-4 mr-2 text-gray-700" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -27,7 +27,7 @@
           Read
         </router-link>
       </nav>
-		</header> -->
+		</header>
     <router-view></router-view>
   </div>
 </template>
