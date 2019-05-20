@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "lts/*"
+cache:
+  directories:
+    - "node_modules"
+script:
+  - set -e
+  - npm run build
+  # - sh deploy.sh
+if: branch = dev
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: GITHUB_TOKEN
+  keep_history: true
+  local_dir: build
+  on:
+    branch: master
