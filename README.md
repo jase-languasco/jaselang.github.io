@@ -1,4 +1,4 @@
-# jaselanguasco
+# jaselanguasco.github.io
 
 ## Project setup
 ```
