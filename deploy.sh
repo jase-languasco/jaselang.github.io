@@ -13,7 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
 git push -f git@github.com:jase-languasco/jaselanguasco.github.io.git dev
 
 cd -
