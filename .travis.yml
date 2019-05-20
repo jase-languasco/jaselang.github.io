@@ -1,4 +1,4 @@
-if: branch = dev
+# if: branch = dev
 language: node_js
 node_js:
   - "lts/*"
@@ -15,6 +15,6 @@ deploy:
   github_token: GITHUB_TOKEN
   keep_history: true
   local_dir: build
-  target_branch: master
+  # target_branch: master
   on:
-    branch: dev
+    branch: master
